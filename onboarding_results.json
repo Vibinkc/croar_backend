@@ -1,0 +1,300 @@
+[
+  {
+    "job_title": "Backend Developer",
+    "job_id": "216e97d7-6d4d-4ef0-9fe1-cb83882b3425",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment",
+        "agent_policy": {
+          "automated_actions": {
+            "rules": [
+              {
+                "id": "uz2nvc1mc",
+                "is_enabled": true,
+                "action_type": "SEND_EMAIL",
+                "template_id": "",
+                "condition_field": "ai_match_score",
+                "condition_value": 80,
+                "condition_operator": "="
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "40f3f1dc-7599-4663-8f1c-ec37ec78e895",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment",
+        "agent_policy": {
+          "automated_actions": {
+            "rules": [
+              {
+                "id": "gmq0ib8vb",
+                "is_enabled": true,
+                "action_type": "SEND_EMAIL",
+                "template_id": "",
+                "ai_instruction": "Be professional and encouraging. Mention their specific skills from the resume.",
+                "condition_field": "ai_match_score",
+                "condition_value": 80,
+                "condition_operator": "="
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "384d44f8-c5c6-4a0c-8537-6382319ad694",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "42eb701e-0433-4746-8b2d-55533500cc34",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "5f099499-999e-4d71-83fd-8f1d2c91b105",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend developer",
+    "job_id": "5e709f6f-83d3-482f-95ab-07dd9976687d",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Aptitude",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "code_blocks",
+        "name": "Coding",
+        "type": "Assignment"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "ba921fae-f8a9-4ed6-ab0f-204d0d480e82",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Aptitude",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "verified",
+        "name": "Final Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "4",
+        "icon": "code_blocks",
+        "name": "Offer Letter",
+        "type": "Assignment"
+      },
+      {
+        "id": "5",
+        "icon": "groups",
+        "name": "Onboarding",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "d5a0f136-2d3b-4ad3-acb5-8ee36b45825e",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "psychology",
+        "name": "AI Screening",
+        "type": "Assessment"
+      },
+      {
+        "id": "2",
+        "icon": "code_blocks",
+        "name": "Technical Test",
+        "type": "Assignment"
+      },
+      {
+        "id": "3",
+        "icon": "groups",
+        "name": "Initial Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "4",
+        "icon": "verified",
+        "name": "Offer Letter",
+        "type": "Interview"
+      },
+      {
+        "id": "5",
+        "icon": "groups",
+        "name": "Onboarding",
+        "type": "Interview"
+      }
+    ],
+    "applications": [
+      {
+        "candidate_name": "vibin kc",
+        "application_id": "86ecece8-22ff-4ee0-8386-21c2fddd1c20",
+        "current_stage": 5,
+        "onboarding_record": "2ccf5d62-6d0c-4f52-b612-f4b9f957608f"
+      }
+    ]
+  }
+]

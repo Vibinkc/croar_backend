@@ -1,0 +1,112 @@
+name: Deploy Backend
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Secrets
+        run: |
+          if [ -z "${{ secrets.DOCKERHUB_USERNAME }}" ]; then echo "CRITICAL ERROR: DOCKERHUB_USERNAME is missing from GitHub Secrets!"; exit 1; fi
+          if [ -z "${{ secrets.DOCKERHUB_TOKEN }}" ]; then echo "CRITICAL ERROR: DOCKERHUB_TOKEN is missing from GitHub Secrets!"; exit 1; fi
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            appxcess/croar_server:latest
+            appxcess/croar_server:v0.${{ github.run_number }}
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Copy docker-compose and nginx files to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "docker-compose.prod.yml,nginx/default.conf"
+          target: "~/croar-app/"
+
+      - name: Deploy to Server via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+            export SERVER_VERSION=v0.${{ github.run_number }}
+            cd ~/croar-app
+            
+            # Update configuration
+            if [ -f docker-compose.prod.yml ]; then
+              mv -f docker-compose.prod.yml docker-compose.yml
+            fi
+            
+            # Persist version and core config to .env
+            if [ ! -f .env ]; then touch .env; fi
+            sed -i '/^SERVER_VERSION=/d' .env
+            sed -i '/^FRONTEND_URL=/d' .env
+            sed -i '/^CORS_ORIGINS=/d' .env
+            
+            # Detect public IP for CORS if domain is not yet active
+            PUBLIC_IP=$(curl -s ifconfig.me || echo "100.31.6.242")
+            
+            echo "SERVER_VERSION=${SERVER_VERSION}" >> .env
+            echo "FRONTEND_URL=https://app.croar.co" >> .env
+            echo "CORS_ORIGINS=https://app.croar.co,https://api.croar.co,http://localhost:3000,http://${PUBLIC_IP}:3000,http://${PUBLIC_IP}" >> .env
+            
+            # Pull the new version
+            echo "Pulling latest images..."
+            docker-compose pull backend worker
+            
+            # REPLACING OLD VERSION
+            # --force-recreate: Replaces containers even if config is same
+            # --remove-orphans: Removes old services no longer in the compose file
+            echo "Restarting services and removing old containers..."
+            docker-compose up -d --force-recreate --remove-orphans backend worker nginx
+            
+            # CLEANUP OLD IMAGES
+            # Removes dangling images (previous versions that are now untagged)
+            echo "Cleaning up old images to save space..."
+            docker image prune -f
+            
+            # Wait for container to be fully ready
+            echo "Waiting for services to initialize..."
+            sleep 15
+            
+            echo "Initializing and Seeding Database..."
+            docker-compose exec -T backend python master_setup.py
+            
+            echo "Running Database Diagnostic..."
+            docker-compose exec -T backend python db_diag.py
+            
+            # Verify Deployment
+            echo "Verifying New Deployment..."
+            docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}" | grep croar
+            
+            echo "--- BACKEND LOG SNAPSHOT ---"
+            docker-compose logs --tail=50 backend
+            
+            echo "--- NGINX LOG SNAPSHOT ---"
+            docker-compose logs --tail=50 nginx

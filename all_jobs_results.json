@@ -1,0 +1,152 @@
+[
+  {
+    "job_title": "Backend Developer",
+    "job_id": "e11afc84-5b91-4cd2-bb0b-4cd05616985b",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "person_search",
+        "name": "Initial Screening",
+        "type": "Screening"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Aptitude",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "groups",
+        "name": "Coding",
+        "type": "Interview"
+      },
+      {
+        "id": "4",
+        "icon": "groups",
+        "name": "Final Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "5",
+        "icon": "groups",
+        "name": "Onboarding",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  },
+  {
+    "job_title": "Backend Developer",
+    "job_id": "f637e383-4806-4f3e-9fc4-3baecc1e28f9",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "person_search",
+        "name": "Initial Screening",
+        "type": "Screening"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Aptitude",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "groups",
+        "name": "Coding",
+        "type": "Interview"
+      },
+      {
+        "id": "4",
+        "icon": "groups",
+        "name": "Final Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "5",
+        "icon": "groups",
+        "name": "Onboarding",
+        "type": "Interview"
+      }
+    ],
+    "applications": [
+      {
+        "candidate_name": "vibin Kc",
+        "application_id": "82782567-e6b9-4a26-a4f0-88e9d72ad58d",
+        "current_stage": 7,
+        "onboarding_record": "72711ce1-56dd-4adf-8ebf-55a16090d6de"
+      }
+    ]
+  },
+  {
+    "job_title": "Frontend Developer",
+    "job_id": "c3f4a279-a02d-47ae-aeb6-b3b67497a9eb",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "person_search",
+        "name": "Initial Screening",
+        "type": "Screening"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "Aptitude",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "groups",
+        "name": "Coding",
+        "type": "Interview"
+      },
+      {
+        "id": "4",
+        "icon": "groups",
+        "name": "Final Interview",
+        "type": "Interview"
+      },
+      {
+        "id": "5",
+        "icon": "groups",
+        "name": "Onboarding",
+        "type": "Interview"
+      }
+    ],
+    "applications": [
+      {
+        "candidate_name": "vibin Kc",
+        "application_id": "2bb730c7-6f1b-4b3a-aa9b-c76e895f460e",
+        "current_stage": 8,
+        "onboarding_record": "d42ee532-f330-41ed-9282-eeae279fcf5b"
+      }
+    ]
+  },
+  {
+    "job_title": "Frontend Developer",
+    "job_id": "0ddb8e78-00d2-4006-b860-f74d92f3d4a4",
+    "workflow_stages": [
+      {
+        "id": "1",
+        "icon": "person_search",
+        "name": "Initial Screening",
+        "type": "Screening"
+      },
+      {
+        "id": "2",
+        "icon": "groups",
+        "name": "APTITUDE",
+        "type": "Interview"
+      },
+      {
+        "id": "3",
+        "icon": "groups",
+        "name": "Coding",
+        "type": "Interview"
+      }
+    ],
+    "applications": []
+  }
+]

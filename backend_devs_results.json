@@ -1,0 +1,136 @@
+[
+  {
+    "full_name": "backendArchitect",
+    "headline": null,
+    "location": "India",
+    "platform": "github",
+    "profile_url": "https://github.com/backendArchitect",
+    "email": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/87218847?v=4",
+    "company": "@fluidtruck",
+    "blog": "https://vatsalchauhan.netlify.app/",
+    "twitter_username": null,
+    "public_repos": "64",
+    "followers": "41",
+    "following": "79",
+    "hireable": null,
+    "skills": [],
+    "social_links": [
+      {
+        "provider": "other",
+        "url": "https://www.instagram.com/vatslchauhan/"
+      },
+      {
+        "provider": "other",
+        "url": "https://www.linkedin.com/in/vatsal-ch4uh4n/"
+      },
+      {
+        "provider": "other",
+        "url": "https://leetcode.com/u/VatsalChauhan22/"
+      },
+      {
+        "provider": "other",
+        "url": "https://vatsalchauhan.medium.com"
+      }
+    ],
+    "raw_data": {
+      "html": "HTML content removed for brevity"
+    }
+  },
+  {
+    "full_name": "Developer-RONNIE",
+    "headline": null,
+    "location": "India",
+    "platform": "github",
+    "profile_url": "https://github.com/Developer-RONNIE",
+    "email": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/108121201?v=4",
+    "company": null,
+    "blog": null,
+    "twitter_username": "ronnie002_",
+    "public_repos": "50",
+    "followers": "36",
+    "following": "19",
+    "hireable": null,
+    "skills": [],
+    "social_links": [
+      {
+        "provider": "other",
+        "url": "https://www.linkedin.com/in/alapan-banerjee/"
+      },
+      {
+        "provider": "twitter",
+        "url": "https://twitter.com/ronnie002_"
+      }
+    ],
+    "raw_data": {
+      "html": "HTML content removed for brevity"
+    }
+  },
+  {
+    "full_name": "DeveloperShubhamKapoor",
+    "headline": null,
+    "location": "Panipat , India",
+    "platform": "github",
+    "profile_url": "https://github.com/DeveloperShubhamKapoor",
+    "email": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/101623364?v=4",
+    "company": null,
+    "blog": "https://developershubhamkapoor.github.io/Portfolio/",
+    "twitter_username": null,
+    "public_repos": "4",
+    "followers": "119",
+    "following": "70",
+    "hireable": null,
+    "skills": [],
+    "social_links": [],
+    "raw_data": {
+      "html": "HTML content removed for brevity"
+    }
+  },
+  {
+    "full_name": "Stephen K",
+    "headline": "",
+    "location": "India",
+    "platform": "linkedin",
+    "profile_url": "https://in.linkedin.com/in/stehpenk",
+    "email": null,
+    "skills": [],
+    "social_links": [],
+    "raw_data": {
+      "source": "oxylabs_google",
+      "title": "Stephen K - Software Engineer | Java Backend Developer ...",
+      "snippet": ""
+    }
+  },
+  {
+    "full_name": "Saikat Kar",
+    "headline": "",
+    "location": "India",
+    "platform": "linkedin",
+    "profile_url": "https://in.linkedin.com/in/kar-saikat",
+    "email": null,
+    "skills": [],
+    "social_links": [],
+    "raw_data": {
+      "source": "oxylabs_google",
+      "title": "Saikat Kar - Software Engineer | Backend Developer",
+      "snippet": ""
+    }
+  },
+  {
+    "full_name": "Tania Mondal",
+    "headline": "",
+    "location": "India",
+    "platform": "linkedin",
+    "profile_url": "https://in.linkedin.com/in/tania-mondal-98744016a",
+    "email": null,
+    "skills": [],
+    "social_links": [],
+    "raw_data": {
+      "source": "oxylabs_google",
+      "title": "Tania Mondal - Jr. Backend Developer",
+      "snippet": ""
+    }
+  }
+]

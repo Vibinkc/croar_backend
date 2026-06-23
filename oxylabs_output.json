@@ -1,0 +1,380 @@
+{
+  "job": {
+    "aggregate_name": null,
+    "browser_instructions": null,
+    "callback_url": null,
+    "client_id": 175374,
+    "client_notes": null,
+    "content_encoding": "utf-8",
+    "context": [
+      {
+        "key": "force_headers",
+        "value": false
+      },
+      {
+        "key": "force_cookies",
+        "value": false
+      },
+      {
+        "key": "hc_policy",
+        "value": true
+      },
+      {
+        "key": "results_language",
+        "value": null
+      },
+      {
+        "key": "safe_search",
+        "value": null
+      },
+      {
+        "key": "tbm",
+        "value": null
+      },
+      {
+        "key": "cr",
+        "value": null
+      },
+      {
+        "key": "filter",
+        "value": null
+      },
+      {
+        "key": "nfpr",
+        "value": null
+      },
+      {
+        "key": "tbs",
+        "value": null
+      },
+      {
+        "key": "fpstate",
+        "value": null
+      },
+      {
+        "key": "aomd",
+        "value": null
+      },
+      {
+        "key": "udm",
+        "value": null
+      },
+      {
+        "key": "limit_per_page",
+        "value": []
+      },
+      {
+        "key": "disable_scripts",
+        "value": false
+      },
+      {
+        "key": "expand_aio",
+        "value": false
+      },
+      {
+        "key": "successful_parse_status_codes",
+        "value": []
+      }
+    ],
+    "created_at": "2026-04-29 07:58:07",
+    "domain": "com",
+    "geo_location": null,
+    "id": "7455163493835102209",
+    "limit": 10,
+    "locale": null,
+    "markdown": false,
+    "pages": 1,
+    "parse": true,
+    "parser_preset": null,
+    "parser_type": null,
+    "parsing_instructions": null,
+    "query": "site:linkedin.com/in \"Senior Frontend Developer\"",
+    "render": null,
+    "session_info": null,
+    "source": "google_search",
+    "start_page": 1,
+    "status": "done",
+    "statuses": [],
+    "storage_type": null,
+    "storage_url": null,
+    "subdomain": "www",
+    "updated_at": "2026-04-29 07:58:07",
+    "url": null,
+    "user_agent_type": "desktop",
+    "xhr": false
+  },
+  "results": [
+    {
+      "content": {
+        "last_visible_page": 10,
+        "page": 1,
+        "parse_status_code": 12000,
+        "results": {
+          "navigation": [
+            {
+              "pos": 1,
+              "title": "AI Mode",
+              "url": "/search?q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&aep=1&ntc=1&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Q2J8OegQIDhAI"
+            },
+            {
+              "pos": 2,
+              "title": "All"
+            },
+            {
+              "pos": 3,
+              "title": "Images",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74QtKgLegQIExAB"
+            },
+            {
+              "pos": 4,
+              "title": "Shopping",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&ved=1t:220175&ictx=111"
+            },
+            {
+              "pos": 5,
+              "title": "Videos",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74QtKgLegQIEhAB"
+            },
+            {
+              "pos": 6,
+              "title": "Forums",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Qs6gLegQIERAB"
+            },
+            {
+              "pos": 7,
+              "title": "Short videos",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Qs6gLegQIEBAB"
+            },
+            {
+              "pos": 8,
+              "title": "News",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Q0pQJegQITRAB"
+            },
+            {
+              "pos": 9,
+              "title": "Maps",
+              "url": "https://maps.google.com/maps?sca_esv=f27198b4d2287e35&hl=en&gl=us&output=search&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&entry=mc&ved=1t:200715&ictx=111"
+            },
+            {
+              "pos": 10,
+              "title": "Web",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Qs6gLegQISxAB"
+            },
+            {
+              "pos": 11,
+              "title": "Books",
+              "url": "/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&udm=36&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-7DjmheGwJ9kkYLzOq5Q2x5_vUa7NlVh74273t1qYj0GEEAK66knc-gpSWRl-btE2fJb3Ja2bm3nlTZI3g40FdRuumzM84sVZp6k_GzLBTebX_VA7bs9OrZRJoCJI1yziq3xk3qKhnuN35qhKZzfIp8AuHniA&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Q0pQJegQITBAB"
+            }
+          ],
+          "organic": [
+            {
+              "additional_info": [
+                "Plano, Texas, United States",
+                "Staff Frontend Engineer",
+                "Hilti Group"
+              ],
+              "desc": "Senior Frontend Developer \u00b7 10 years of experience building SEO optimized, multi-language web applications for international corporations.",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Scott Robertson",
+              "pos": 1,
+              "pos_overall": 1,
+              "title": "Scott Robertson - Senior Frontend Developer",
+              "url": "https://www.linkedin.com/in/sc0tt5",
+              "url_shown": "1.2K+ followers"
+            },
+            {
+              "additional_info": [
+                "Tomball, Texas, United States",
+                "Senior Frontend Developer",
+                "HailTrace"
+              ],
+              "desc": "As a Senior Frontend Developer at Petra Financial Technologies, I worked on building and maintaining user-friendly, secure, and scalable web applications for\u00a0...Read more",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Micah Finley",
+              "pos": 2,
+              "pos_overall": 2,
+              "title": "Micah Finley - Senior Frontend Developer",
+              "url": "https://www.linkedin.com/in/micah-finley",
+              "url_shown": "1.6K+ followers"
+            },
+            {
+              "additional_info": [
+                "Los Angeles, California, United States",
+                "Senior Frontend Developer",
+                "Shopify"
+              ],
+              "desc": "Rick Caplan. Senior Frontend Developer - Shopify. Shopify Emerson College. Los Angeles, California, United States.Read more",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Rick Caplan",
+              "pos": 3,
+              "pos_overall": 3,
+              "title": "Rick Caplan - Senior Frontend Developer - Shopify",
+              "url": "https://www.linkedin.com/in/rickcaplan",
+              "url_shown": "740+ followers"
+            },
+            {
+              "desc": "I am a Senior Frontend Developer working within the tech industry in London, United Kingdom. I have professional experience in Vue and React JavaScript\u00a0...Read more",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Gavin Kemp",
+              "pos": 4,
+              "pos_overall": 4,
+              "title": "Gavin Kemp - Senior Frontend Developer",
+              "url": "https://uk.linkedin.com/in/gpkemp",
+              "url_shown": "430+ followers"
+            },
+            {
+              "additional_info": [
+                "Los Angeles Metropolitan Area",
+                "Senior Frontend Developer"
+              ],
+              "desc": "I enjoy the creative challenges and problem solving that both design and development\u2026 \u00b7 Experience: Senior Frontend Developer \u00b7 Education: Saddleback\u00a0...",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Matt McGraw",
+              "pos": 5,
+              "pos_overall": 5,
+              "title": "Matt McGraw - Senior Frontend Developer",
+              "url": "https://www.linkedin.com/in/mattmcgraw",
+              "url_shown": "1.6K+ followers"
+            },
+            {
+              "additional_info": [
+                "Greensboro, North Carolina, United States",
+                "Senior Frontend Developer",
+                "Ravensburger Digital"
+              ],
+              "desc": "Senior Frontend Developer, Weird little book goblin \u00b7 Senior front-end developer at Ravensburger Digital with a focus on Nuxt, Bloomreach, and Thymeleaf\u00a0...",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Tom Whalley",
+              "pos": 6,
+              "pos_overall": 6,
+              "title": "Tom Whalley - Senior Frontend Developer, Weird little ...",
+              "url": "https://www.linkedin.com/in/whalleywrites",
+              "url_shown": "50+ followers"
+            },
+            {
+              "additional_info": [
+                "Madrid, Comunidad de Madrid, Espa\u00f1a",
+                "Senior Frontend Developer",
+                "Chess.com"
+              ],
+              "desc": "Senior Frontend Developer \u00b7 I've been a front-end developer for over a decade, working across the whole spectrum from pure JavaScript to modern frameworks\u00a0...",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Nicol\u00e1s Fonseca",
+              "pos": 7,
+              "pos_overall": 7,
+              "title": "Nicol\u00e1s Fonseca - Senior Frontend Developer",
+              "url": "https://es.linkedin.com/in/nicofonseca",
+              "url_shown": "4.7K+ followers"
+            },
+            {
+              "desc": "I worked as a senior frontend developer on two agile teams, writing code for both public facing and internal systems. I wrote a lot of the frontend code for the\u00a0...Read more",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Alex Davies",
+              "pos": 8,
+              "pos_overall": 8,
+              "sitelinks": {
+                "inline": [
+                  {
+                    "title": "Senior Frontend Developer",
+                    "url": "https://uk.linkedin.com/in/alex-davies-b32b3793#:~:text=Senior%20Frontend%20Developer,-Futrli%20Staffordshire%20University"
+                  },
+                  {
+                    "title": "About",
+                    "url": "https://uk.linkedin.com/in/alex-davies-b32b3793#:~:text=About,-I%20am%20an%20enthusiastic%20senior"
+                  },
+                  {
+                    "title": "Experience",
+                    "url": "https://uk.linkedin.com/in/alex-davies-b32b3793#:~:text=activity-,Experience"
+                  }
+                ]
+              },
+              "title": "Alex Davies - Senior Frontend Developer",
+              "url": "https://uk.linkedin.com/in/alex-davies-b32b3793",
+              "url_shown": "430+ followers"
+            },
+            {
+              "desc": "Senior Frontend Developer \u00b7 I am a highly skilled and adaptable front-end engineer with a unique blend of visual design and UX expertise.",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Mary A Hayne",
+              "pos": 9,
+              "pos_overall": 9,
+              "sitelinks": {
+                "inline": [
+                  {
+                    "title": "Senior Frontend Developer",
+                    "url": "https://www.linkedin.com/in/mahayne#:~:text=Senior%20Frontend%20Developer,-ISACA%20General%20Assembly"
+                  },
+                  {
+                    "title": "About",
+                    "url": "https://www.linkedin.com/in/mahayne#:~:text=About,-I%20am%20a%20highly%20skilled"
+                  },
+                  {
+                    "title": "Experience",
+                    "url": "https://www.linkedin.com/in/mahayne#:~:text=%21-,Experience"
+                  }
+                ]
+              },
+              "title": "Mary A Hayne - Senior Frontend Developer",
+              "url": "https://www.linkedin.com/in/mahayne",
+              "url_shown": "860+ followers"
+            },
+            {
+              "additional_info": [
+                "San Francisco, California, United States",
+                "Senior Frontend Developer",
+                "Pacific Life"
+              ],
+              "desc": "Senior Frontend Developer @ Pacific Life \u00b7 Frontend Developer at EIS Group. Certified as a full-stack developer at UC Berkeley Extension.",
+              "favicon_text": "LinkedIn\u00a0\u00b7\u00a0Vincent Caruso",
+              "pos": 10,
+              "pos_overall": 10,
+              "sitelinks": {
+                "inline": [
+                  {
+                    "title": "Senior Frontend Developer @...",
+                    "url": "https://www.linkedin.com/in/vincentcaruso97#:~:text=Senior%20Frontend%20Developer%20%40%20Pacific%20Life,-Pacific%20Life%20San%20Francisco%20State"
+                  },
+                  {
+                    "title": "Experience",
+                    "url": "https://www.linkedin.com/in/vincentcaruso97#:~:text=activity-,Experience"
+                  },
+                  {
+                    "title": "Education",
+                    "url": "https://www.linkedin.com/in/vincentcaruso97#:~:text=.-,Education"
+                  }
+                ]
+              },
+              "title": "Vincent Caruso - Senior Frontend Developer @ Pacific Life",
+              "url": "https://www.linkedin.com/in/vincentcaruso97",
+              "url_shown": "320+ followers"
+            }
+          ],
+          "paid": [],
+          "related_searches": [
+            {
+              "pos_overall": 11,
+              "related_searches": [
+                "Senior frontend developer salary",
+                "Senior frontend developer certification"
+              ],
+              "related_searches_urls": [
+                "https://www.google.com/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&q=Senior+frontend+developer+salary&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Q1QJ6BAgqEAE",
+                "https://www.google.com/search?sca_esv=f27198b4d2287e35&hl=en&gl=us&q=Senior+frontend+developer+certification&sa=X&ved=2ahUKEwi_-fqry5KUAxWKD7kGHfOWO74Q1QJ6BAgpEAE"
+              ]
+            }
+          ],
+          "search_information": {
+            "no_results_for_original_query_found": false,
+            "query": "site:linkedin.com/in \"Senior Frontend Developer\"",
+            "showing_results_for": "site:linkedin.com/in \"Senior Frontend Developer\"",
+            "time_taken_displayed": null,
+            "total_results_count": 86400
+          },
+          "total_results_count": 86400
+        },
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&hl=en&gl=us"
+      },
+      "created_at": "2026-04-29 07:58:07",
+      "is_render_forced": false,
+      "job_id": "7455163493835102209",
+      "page": 1,
+      "parser_preset": null,
+      "parser_type": "",
+      "status_code": 200,
+      "type": "parsed",
+      "updated_at": "2026-04-29 07:58:12",
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Senior+Frontend+Developer%22&hl=en&gl=us"
+    }
+  ]
+}

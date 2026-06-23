@@ -1,0 +1,30 @@
+{
+  "full_name": "smakosh",
+  "headline": null,
+  "location": "Skåne, Sweden",
+  "platform": "github",
+  "profile_url": "https://github.com/smakosh",
+  "email": "ismai23l@hotmail.com",
+  "avatar_url": "https://avatars.githubusercontent.com/u/20082141?v=4",
+  "company": "llmgateway.io",
+  "blog": "https://smakosh.com",
+  "twitter_username": "smakosh",
+  "public_repos": "147",
+  "followers": "1.7k",
+  "following": "163",
+  "hireable": null,
+  "skills": [],
+  "social_links": [
+    {
+      "provider": "twitter",
+      "url": "https://x.com/smakosh"
+    },
+    {
+      "provider": "other",
+      "url": "https://codepen.io/smakosh"
+    }
+  ],
+  "raw_data": {
+    "html": "HTML content length: 230085 chars. Preview: \n\n<!DOCTYPE html>\n<html\n  lang=\"en\"\n  \n  data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"\n  data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"\n  \n  >\n\n\n\n\n  <head..."
+  }
+}
